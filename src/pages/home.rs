@@ -27,5 +27,9 @@ pub fn Home() -> impl IntoView{
             </div>
             
         </section>
+
+        // footer
+        <crate::components::footer::Footer />
+        
     }
 }

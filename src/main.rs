@@ -5,5 +5,5 @@ mod components;
 mod pages;
 
 fn main() {
-    mount_to_body(|| pages::home::Home())
+    mount_to_body(|| app::App())
 }
