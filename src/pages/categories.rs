@@ -5,9 +5,9 @@ use leptos::{component, view, IntoView};
 #[component]
 pub fn Categories() -> impl IntoView{
     view! {
-        <section class="justify-center p-40">
+        <section class="justify-center mt-20 md:mt-0 md:p-40">
             <div class="text-center">
-                <h3 class="font-bold text-main-text text-extra-lg mb-4">Categories</h3>
+                <h3 class="font-bold text-main-text text-extra-lg mb-4">"Categories"</h3>
             </div>
 
             <div class="max-w-6xl mx-auto mb-3">
